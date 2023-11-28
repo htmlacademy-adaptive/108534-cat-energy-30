@@ -1,7 +1,7 @@
 # Личный проект «Кэт энерджи»
 
 * Студент: [Valentina Klimenko](https://up.htmlacademy.ru/adaptive/30/user/108534).
-* Наставник: `Неизвестно`.
+* Наставник: [Vitalij Dragulin](https://up.htmlacademy.ru).
 
 ---
 
