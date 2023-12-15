@@ -10,8 +10,8 @@
   <body>
     <header class="header">
       <a class="header__logo logo" href="#">
-        <img class="header__logo-image" src="images/logo-mobile.svg" width="33" height="38" alt="рисунок котика">
-        <img class="header__logo-text" src="images/logo-text-mobile.svg" width="101" height="18" alt="кат энерджи">
+        <img class="header__logo-image" src="images/image-mobile/logo-mobile.svg" width="33" height="38" alt="рисунок котика">
+        <img class="header__logo-text" src="images/image-mobile/logo-text-mobile.svg" width="101" height="18" alt="кат энерджи">
       </a>
       <nav class="navigation">
         <button class="navigation__toggle" type="button">
@@ -32,10 +32,10 @@
     </header>
     <main class="form">
       <div class="form__wrapper">
-        <h1 class="form__title">Подбор программы</h1>
+        <h1 class="form__title title">Подбор программы</h1>
         <form class="form__select select" action="https://exo.htmlacademy.ru" >
           <fieldset class="select__group group">
-            <legend class="select__title">Заполните анкету, и мы подберем программу питания для вашего кота</legend>
+            <legend class="select__title title">Заполните анкету, и мы подберем программу питания для вашего кота</legend>
             <ul class="select__list">
               <li class="select__item">
                 <label class="select__label" for="name">Имя:*</label>
@@ -47,7 +47,7 @@
               </li>
               <li class="select__item">
                 <label class="select__label" for="age">Возраст (лет):*</label>
-                <input class="select__age" type="number" name="age" placeholder="7" id="age" required>
+                <input class="select__age" type="number" name="age" placeholder="7" id="age">
               </li>
             </ul>
           </fieldset>
@@ -55,21 +55,21 @@
             <ul class="group__list">
               <li class="group__item">
                 <label class="group__label" for="thin">
-                  <input class="group__radio" type="radio" name="thin" id="thin" checked>
+                  <input class="group__radio" type="radio" name="radio" id="thin" checked>
                   <span></span>
                   Похудение
                 </label>
               </li>
               <li class="group__item">
                 <label class="group__label" for="thick">
-                  <input class="group__radio" type="radio" name="thick" id="thick">
+                  <input class="group__radio" type="radio" name="radio" id="thick">
                   <span></span>
                   Набор массы
                 </label>
               </li>
               <li class="group__item">
                 <label class="group__label" for="advice">
-                  <input class="group__radio" type="radio" name="advice" id="advice">
+                  <input class="group__radio" type="radio" name="radio" id="advice">
                   <span></span>
                   Не знаю (нужен ваш совет)
                 </label>
@@ -77,7 +77,7 @@
             </ul>
           </fieldset>
           <fieldset class="select__group group">
-            <legend class="select__title">Контактные данные (владельца кота)</legend>
+            <legend class="select__title title">Контактные данные (владельца кота)</legend>
             <ul class="select__list">
               <li class="select__item">
                 <label class="select__label" for="email">E-mail:*</label>
@@ -94,7 +94,7 @@
             </ul>
           </fieldset>
           <fieldset class="select__group group">
-            <legend class="select__title">Дополнительно</legend>
+            <legend class="select__title title">Дополнительно</legend>
             <ul class="select__list">
               <li class="select__item">
                 <label class="select__label" for="sugar">
@@ -126,13 +126,15 @@
               </li>
             </ul>
           </fieldset>
+          <a class="form__button button" href="#">Отправить заявку</a>
+          <small>* - Обязательные поля</small>
         </form>
       </div>
     </main>
     <article class="map">
       <div class="map__wrapper">
         <h2 class="visually-hidden">Контакты</h2>
-        <h4 class="map__title">Приглашаем к сотрудничеству дилеров!</h4>
+        <h4 class="map__title title">Приглашаем к сотрудничеству дилеров!</h4>
         <address class="map__adress">ул.Большая Конюшенная, д. 19/8 Санкт-Петербург</address>
         <img src="images/image-mobile/Rectangle-map.png" width="320" height="362" alt="Карта с локацией">
       </div>
@@ -142,7 +144,7 @@
         <section class="main-footer__logo">
           <h3 class="visually-hidden">Логотип</h3>
           <a href="index.html">
-            <img class="main-footer__logo-text" src="images/logo-text-mobile.svg" width="101" height="18" alt="кат энерджи">
+            <img class="main-footer__logo-text" src="images/image-mobile/logo-text-mobile.svg" width="101" height="18" alt="кат энерджи">
           </a>
         </section>
         <section class="main-footer__social social">
