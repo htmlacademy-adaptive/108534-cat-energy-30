@@ -34,7 +34,11 @@
       <div class="hero-screen">
         <h1 class="hero-screen__headline">Функциональное питание для котов</h1>
         <p class="hero-screen__subtitle">Занялся собой?Займись котом!</p>
-        <img class="hero-screen__image" src="images/image-mobile/index-can-mobile.png" width="280" height="270" alt="Корм для котика с курицей">
+        <picture>
+          <source media="(min-width: 1440px)" srcset="images/image-desktop/index-can-desktop@1x.png, images/image-desktop/index-can-desktop@2x.png">
+          <source media="(min-width: 768px)" srcset="images/image-tablet/index-can-tablet@1x.png, images/image-tablet/index-can-tablet@2x.png">
+          <img class="hero-screen__image" src="images/image-mobile/index-can-mobile@1x.png" srcset="images/image-mobile/index-can-mobile@2x.png" width="280" height="270" alt="Корм для котика с курицей">
+        </picture>
         <a class="button hero-screen__button" href="form.html">Подобрать программу</a>
       </div>
       <section class="benefits">
