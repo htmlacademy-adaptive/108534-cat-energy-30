@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <title>Cat energy</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicons/180.png">
+    <link rel="icon" type="image/svg+xml" sizes="32x32" href="favicons/32.svg">
+    <link rel="icon" href="favicon.ico">
+    <link rel="manifest" href="manifest.webmanifest">
     <link rel="stylesheet" href="styles/styles.css">
     <script src="scripts/index.js" defer></script>
   </head>
@@ -21,7 +25,7 @@
           <li class="navigation-list__item">
             <a href="#">Главная</a>
           </li>
-          <li class="navigation-list__item navigation-list__item">
+          <li class="navigation-list__item">
             <a href="catalog.html">Каталог продукции</a>
           </li>
           <li class="navigation-list__item navigation-list__item-current">
@@ -52,6 +56,7 @@
             </ul>
           </fieldset>
           <fieldset class="select__group group">
+            <legend class="visually-hidden">Выбор метода кормления кота</legend>
             <ul class="group__list">
               <li class="group__item">
                 <label class="group__label" for="thin">
@@ -89,7 +94,7 @@
               </li>
               <li class="select__item">
                 <label class="select__label" for="message">Комментарий</label>
-                <textarea class="select__comment" name="comment" id="message" cols="30" rows="10" placeholder="Расскажите обо всех повадках кота" required></textarea>
+                <textarea class="select__comment" name="comment" id="message" placeholder="Расскажите обо всех повадках кота" required></textarea>
               </li>
             </ul>
           </fieldset>

@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <title>Cat energy</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicons/180.png">
+    <link rel="icon" type="image/svg+xml" sizes="32x32" href="favicons/32.svg">
+    <link rel="icon" href="favicon.ico">
+    <link rel="manifest" href="manifest.webmanifest">
     <link rel="stylesheet" href="styles/styles.css">
     <script src="scripts/index.js" defer></script>
   </head>
@@ -37,7 +41,16 @@
           <ul class="catalog__card-list">
             <li class="catalog__card-item card">
               <a class="card__link" href="#">
-                <img src="images/image-mobile/chicken5.png" alt="Упаковка корма из курицы 500 грамм.">
+                <picture>
+                  <source type="image/png" media="(min-width: 1440px)"
+                  srcset="images/image-desktop/chicken-min-desktop@1x.png 1x, images/image-desktop/chicken-min-desktop@2x.png 2x"
+                  width="169" height="210">
+                  <source type="image/png" media="(min-width: 768px)"
+                  srcset="images/image-tablet/chicken-min-tablet@1x.png 1x, images/image-tablet/chicken-min-tablet@2x.png 2x"
+                  width="200" height="210">
+                  <img src="images/image-mobile/chicken-min-mobile@1x.png" srcset="images/image-mobile/chicken-min-mobile@2x.png 2x"
+                  width="140" height="107" alt="Упаковка корма из курицы 500 грамм.">
+                </picture>
               </a>
               <h4 class="card__title title">Cat energy pro 500 г</h4>
               <dl>
@@ -52,7 +65,16 @@
             </li>
             <li class="catalog__card-item card">
               <a class="card__link" href="#">
-                <img src="images/image-mobile/chicken1.png" alt="Упаковка корма из курицы 1000 грамм.">
+                <picture>
+                  <source type="image/png" media="(min-width: 1440px)"
+                  srcset="images/image-desktop/chicken-max-desktop@1x.png 1x, images/image-desktop/chicken-max-desktop@2x.png 2x"
+                  width="169" height="210">
+                  <source type="image/png" media="(min-width: 768px)"
+                  srcset="images/image-tablet/chicken-max-tablet@1x.png 1x, images/image-tablet/chicken-max-tablet@2x.png 2x"
+                  width="200" height="210">
+                  <img src="images/image-mobile/chicken-max-mobile@1x.png" srcset="images/image-mobile/chicken-max-mobile@2x.png 2x"
+                  width="140" height="107" alt="Упаковка корма из курицы 1000 грамм.">
+                </picture>
               </a>
               <h4 class="card__title title">Cat energy pro 1000 г</h4>
               <dl>
@@ -67,7 +89,16 @@
             </li>
             <li class="catalog__card-item card">
               <a class="card__link" href="#">
-                <img src="images/image-mobile/fish5.png" alt="Упаковка корма из рыбы 500 грамм.">
+                <picture>
+                  <source type="image/png" media="(min-width: 1440px)"
+                  srcset="images/image-desktop/fish-min-desktop@1x.png 1x, images/image-desktop/fish-min-desktop@2x.png 2x"
+                  width="169" height="210">
+                  <source type="image/png" media="(min-width: 768px)"
+                  srcset="images/image-tablet/fish-min-tablet@1x.png 1x, images/image-tablet/fish-min-tablet@2x.png 2x"
+                  width="200" height="210">
+                  <img src="images/image-mobile/fish-min-mobile@1x.png" srcset="images/image-mobile/fish-min-mobile@2.png 2x"
+                  width="140" height="107" alt="Упаковка корма из рыбы 500 грамм.">
+                </picture>
               </a>
               <h4 class="card__title title">Cat energy pro 500 г</h4>
               <dl>
@@ -82,7 +113,16 @@
             </li>
             <li class="catalog__card-item card">
               <a class="card__link" href="#">
-                <img src="images/image-mobile/fish1.png" alt="Упаковка корма из рыбы 1000 грамм.">
+                <picture>
+                  <source type="image/png" media="(min-width: 1440px)"
+                    srcset="images/image-desktop/fish-max-desktop@1x.png 1x, images/image-desktop/fish-max-desktop@2x.png 2x"
+                    width="169" height="210">
+                  <source type="image/png" media="(min-width: 768px)"
+                    srcset="images/image-tablet/fish-max-tablet@1x.png 1x, images/image-tablet/fish-max-tablet@2x.png 2x"
+                    width="200" height="210">
+                  <img src="images/image-mobile/fish-max-mobile@1x.png" srcset="images/image-mobile/fish-max-mobile@2.png 2x"
+                    width="140" height="107" alt="Упаковка корма из рыбы 1000 грамм.">
+                </picture>
               </a>
               <h4 class="card__title title">Cat energy pro 1000 г</h4>
               <dl>
@@ -97,7 +137,16 @@
             </li>
             <li class="catalog__card-item card">
               <a class="card__link" href="#">
-                <img src="images/image-mobile/buckwheat5.png" alt="Упаковка корма из гречки 500 грамм.">
+                <picture>
+                  <source type="image/png" media="(min-width: 1440px)"
+                    srcset="images/image-desktop/buckwheat-min-desktop@1x.png 1x, images/image-desktop/buckwheat-min-desktop@2x.png 2x"
+                    width="169" height="210">
+                  <source type="image/png" media="(min-width: 768px)"
+                    srcset="images/image-tablet/buckwheat-min-tablet@1x.png 1x, images/image-tablet/buckwheat-min-tablet@2x.png 2x"
+                    width="200" height="210">
+                  <img src="images/image-mobile/buckwheat-min-mobile@1x.png" srcset="images/image-mobile/buckwheat-min-mobile@2.png 2x"
+                    width="140" height="107" alt="Упаковка корма из гречки 500 грамм.">
+                </picture>
               </a>
               <h4 class="card__title title">Cat energy pro 500 г</h4>
               <dl>
@@ -112,7 +161,16 @@
             </li>
             <li class="catalog__card-item card">
               <a class="card__link" href="#">
-                <img src="images/image-mobile/buckwheat1.png" alt="Упаковка корма из гречки 1000 грамм.">
+                <picture>
+                  <source type="image/png" media="(min-width: 1440px)"
+                    srcset="images/image-desktop/buckwheat-max-desktop@1x.png 1x, images/image-desktop/buckwheat-max-desktop@2x.png 2x"
+                    width="169" height="210">
+                  <source type="image/png" media="(min-width: 768px)"
+                    srcset="images/image-tablet/buckwheat-max-tablet@1x.png 1x, images/image-tablet/buckwheat-max-tablet@2x.png 2x"
+                    width="200" height="210">
+                  <img src="images/image-mobile/buckwheat-max-mobile@1x.png" srcset="images/image-mobile/buckwheat-max-mobile@2.png 2x"
+                    width="140" height="107" alt="Упаковка корма из гречки 1000 грамм.">
+                </picture>
               </a>
               <h4 class="card__title title">Cat energy pro 1000 г</h4>
               <dl>
@@ -127,7 +185,16 @@
             </li>
             <li class="catalog__card-item card">
               <a class="card__link" href="#">
-                <img src="images/image-mobile/rice5.png" alt="Упаковка корма из риса 500 грамм.">
+                <picture>
+                  <source type="image/png" media="(min-width: 1440px)"
+                    srcset="images/image-desktop/rice-min-desktop@1x.png 1x, images/image-desktop/rice-min-desktop@2x.png 2x"
+                    width="169" height="210">
+                  <source type="image/png" media="(min-width: 768px)"
+                    srcset="images/image-tablet/rice-min-tablet@1x.png 1x, images/image-tablet/rice-min-tablet@2x.png 2x"
+                    width="200" height="210">
+                  <img src="images/image-mobile/rice-min-mobile@1x.png" srcset="images/image-mobile/rice-min-mobile@2.png 2x"
+                    width="140" height="107" alt="Упаковка корма из риса 500 грамм.">
+                </picture>
               </a>
               <h4 class="card__title title">Cat energy pro 500 г</h4>
               <dl>

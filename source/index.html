@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <title>Cat energy</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicons/180.png">
+    <link rel="icon" type="image/svg+xml" sizes="32x32" href="favicons/32.svg">
+    <link rel="icon" href="favicon.ico">
+    <link rel="manifest" href="manifest.webmanifest">
     <link rel="stylesheet" href="styles/styles.css">
     <script src="scripts/index.js" defer></script>
   </head>
@@ -34,7 +38,13 @@
       <div class="hero-screen">
         <h1 class="hero-screen__headline">Функциональное питание для котов</h1>
         <p class="hero-screen__subtitle">Занялся собой?Займись котом!</p>
-        <img class="hero-screen__image" src="images/image-mobile/index-can-mobile.png" width="280" height="270" alt="Корм для котика с курицей">
+        <picture>
+          <source type="image/png" media="(min-width: 1440px)"
+          srcset="images/image-desktop/index-can@1x.png 1x, images/image-desktop/index-can@2x.png 2x">
+          <source type="image/png" media="(min-width: 768px)"
+          srcset="images/image-tablet/index-can-tablet@1x.png 1x, images/image-tablet/index-can-tablet@2x.png 2x">
+          <img class="hero-screen__image" src="images/image-mobile/index-can-mobile@1x.png" srcset="images/image-mobile/index-can-mobile@2x.png" width="280" height="270" alt="Корм для котика с курицей">
+        </picture>
         <a class="button hero-screen__button" href="form.html">Подобрать программу</a>
       </div>
       <section class="benefits">
@@ -100,8 +110,22 @@
       <section class="slider">
         <div class="slider__wrapper">
           <h2 class="visually-hidden">Слайдер-сравнение.До и после.</h2>
-          <img class="slider__comparison" src="images/image-mobile/cat-before-mobile.png" width="140" height="256" alt="Толстый котик">
-          <img class="slider__comparison" src="images/image-mobile/cat-after-mobile.png" width="140" height="256" alt="Худой котик">
+          <picture>
+            <source type="image/png" media="(min-width: 1440px)"
+              srcset="images/image-desktop/before-desktop@1x.png 1x, images/image-desktop/before-desktop@2x.png 2x">
+            <source type="image/png" media="(min-width: 768px)"
+              srcset="images/image-tablet/tablet-before@1x.png 1x, images/image-tablet/tablet-before@2x.png 2x">
+            <img class="slider__comparison" src="images/image-mobile/mobile-before@1x.png"
+              srcset="images/image-mobile/mobile-before@2x.png 2x" width="280" height="256" alt="Толстый котик">
+          </picture>
+          <picture>
+            <source type="image/png" media="(min-width: 1440px)"
+              srcset="images/image-desktop/after-desktop@1x.png 1x, images/image-desktop/after-desktop@2x.png 2x">
+            <source type="image/png" media="(min-width: 768px)"
+              srcset="images/image-tablet/tablet-after@1x.png 1x, images/image-tablet/tablet-after@2x.png 2x">
+            <img class="slider__comparison" src="images/image-mobile/mobile-after@1x.png"
+              srcset="images/image-mobile/mobile-after@2x.png 2x" width="280" height="256" alt="Худой котик">
+          </picture>
         </div>
       </section>
     </main>
