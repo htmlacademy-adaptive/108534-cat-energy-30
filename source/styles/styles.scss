@@ -1,7 +1,29 @@
 /* GLOBAL */
 @import "./global/variables.scss";
 @import "./global/global.scss";
+@import "./global/common.scss";
 @import "./global/fonts.scss";
+@import "./global/visually-hidden.scss";
 
 /* BLOCKS */
+@import "./blocks/page.scss";
 @import "./blocks/header.scss";
+@import "./blocks/navigation.scss";
+@import "./blocks/navigation-list.scss";
+@import "./blocks/main-container.scss";
+@import "./blocks/hero-screen.scss";
+@import "./blocks/benefits.scss";
+@import "./blocks/benefits__wrapper.scss";
+@import "./blocks/benefits__list.scss";
+@import "./blocks/advantages.scss";
+@import "./blocks/advantages__wrapper.scss";
+@import "./blocks/advantages__list.scss";
+@import "./blocks/stats.scss";
+@import "./blocks/stats__wrapper.scss";
+@import "./blocks/stats__header.scss";
+@import "./blocks/stats__list.scss";
+@import "./blocks/slider.scss";
+@import "./blocks/map.scss";
+@import "./blocks/map__wrapper.scss";
+@import "./blocks/main-footer.scss";
+@import "./blocks/main-footer__wrapper.scss";
