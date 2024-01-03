@@ -23,13 +23,13 @@
         </button>
         <ul class="navigation-list">
           <li class="navigation-list__item">
-            <a href="#">Главная</a>
+            <a class="navigation-list__link" href="index.html">Главная</a>
           </li>
           <li class="navigation-list__item navigation-list__item-current">
-            <a href="catalog.html">Каталог продукции</a>
+            <a class="navigation-list__link" href="catalog.html">Каталог продукции</a>
           </li>
           <li class="navigation-list__item navigation-list__item--form-current">
-            <a href="form.html">Подбор программы</a>
+            <a class="navigation-list__link" href="form.html">Подбор программы</a>
           </li>
         </ul>
       </nav>
@@ -55,11 +55,11 @@
               <h4 class="card__title title">Cat energy pro 500 г</h4>
               <dl>
                 <dt class="card__description">Масса</dt>
-                <dd class="card__number">500 г</dd>
+                <dd class="card__meaning">500 г</dd>
                 <dt class="card__description">Вкус</dt>
-                <dd class="card__desc">Курица</dd>
+                <dd class="card__meaning">Курица</dd>
                 <dt class="card__description">Цена</dt>
-                <dd class="card__price">700 ₽</dd>
+                <dd class="card__meaning">700 ₽</dd>
               </dl>
               <a class="card__button button" href="#">Заказать</a>
             </li>
@@ -79,11 +79,11 @@
               <h4 class="card__title title">Cat energy pro 1000 г</h4>
               <dl>
                 <dt class="card__description">Масса</dt>
-                <dd class="card__number">1000 г</dd>
+                <dd class="card__meaning">1000 г</dd>
                 <dt class="card__description">Вкус</dt>
-                <dd class="card__desc">Курица</dd>
+                <dd class="card__meaning">Курица</dd>
                 <dt class="card__description">Цена</dt>
-                <dd class="card__price">1000 ₽</dd>
+                <dd class="card__meaning">1000 ₽</dd>
               </dl>
               <a class="card__button button" href="#">Заказать</a>
             </li>
@@ -103,11 +103,11 @@
               <h4 class="card__title title">Cat energy pro 500 г</h4>
               <dl>
                 <dt class="card__description">Масса</dt>
-                <dd class="card__number">500 г</dd>
+                <dd class="card__meaning">500 г</dd>
                 <dt class="card__description">Вкус</dt>
-                <dd class="card__desc">Рыба</dd>
+                <dd class="card__meaning">Рыба</dd>
                 <dt class="card__description">Цена</dt>
-                <dd class="card__price">700 ₽</dd>
+                <dd class="card__meaning">700 ₽</dd>
               </dl>
               <a class="card__button button" href="#">Заказать</a>
             </li>
@@ -127,11 +127,11 @@
               <h4 class="card__title title">Cat energy pro 1000 г</h4>
               <dl>
                 <dt class="card__description">Масса</dt>
-                <dd class="card__number">1000 г</dd>
+                <dd class="card__meaning">1000 г</dd>
                 <dt class="card__description">Вкус</dt>
-                <dd class="card__desc">Рыба</dd>
+                <dd class="card__meaning">Рыба</dd>
                 <dt class="card__description">Цена</dt>
-                <dd class="card__price">1000 ₽</dd>
+                <dd class="card__meaning">1000 ₽</dd>
               </dl>
               <a class="card__button button" href="#">Заказать</a>
             </li>
@@ -151,11 +151,11 @@
               <h4 class="card__title title">Cat energy pro 500 г</h4>
               <dl>
                 <dt class="card__description">Масса</dt>
-                <dd class="card__number">500 г</dd>
+                <dd class="card__meaning">500 г</dd>
                 <dt class="card__description">Вкус</dt>
-                <dd class="card__desc">Гречка</dd>
+                <dd class="card__meaning">Гречка</dd>
                 <dt class="card__description">Цена</dt>
-                <dd class="card__price">400 ₽</dd>
+                <dd class="card__meaning">400 ₽</dd>
               </dl>
               <a class="card__button button" href="#">Заказать</a>
             </li>
@@ -175,11 +175,11 @@
               <h4 class="card__title title">Cat energy pro 1000 г</h4>
               <dl>
                 <dt class="card__description">Масса</dt>
-                <dd class="card__number">1000 г</dd>
+                <dd class="card__meaning">1000 г</dd>
                 <dt class="card__description">Вкус</dt>
-                <dd class="card__desc">Гречка</dd>
+                <dd class="card__meaning">Гречка</dd>
                 <dt class="card__description">Цена</dt>
-                <dd class="card__price">700 ₽</dd>
+                <dd class="card__meaning">700 ₽</dd>
               </dl>
               <a class="card__button button" href="#">Заказать</a>
             </li>
@@ -199,44 +199,46 @@
               <h4 class="card__title title">Cat energy pro 500 г</h4>
               <dl>
                 <dt class="card__description">Масса</dt>
-                <dd class="card__number">500 г</dd>
+                <dd class="card__meaning">500 г</dd>
                 <dt class="card__description">Вкус</dt>
-                <dd class="card__desc">Рис</dd>
+                <dd class="card__meaning">Рис</dd>
                 <dt class="card__description">Цена</dt>
-                <dd class="card__price">500 ₽</dd>
+                <dd class="card__meaning">500 ₽</dd>
               </dl>
               <a class="card__button button" href="#">Заказать</a>
             </li>
+            <li class="catalog__card-item card">
+              <div class="offers">
+                <a class="offers__number" href="#">Показать еще 100500 товаров</a>
+                <p class="offers__description">На самом деле вкусов гораздо больше!</p>
+                <button class="offers__button button" type="button">Показать все</button>
+              </div>
+            </li>
           </ul>
-          <div class="offers">
-            <a class="offers__number" href="#">Показать еще 100500 товаров</a>
-            <p>На самом деле вкусов гораздо больше!</p>
-            <button class="offers__button button" type="button">Показать все</button>
-          </div>
         </section>
         <section class="card-product">
           <h3 class="card-product__title title">Дополнительные товары</h3>
           <ul class="card-product__list">
             <li class="card-product__item">
-              <h4 class="card-product__title title">Сахарозаменитель</h4>
+              <h4 class="card-product__item-title title">Сахарозаменитель</h4>
               <span class="card-product__desc">1 упаковка (100г)</span>
               <b class="card-product__price">200 ₽</b>
               <a class="card-product__button button" href="#">Заказать</a>
             </li>
             <li class="card-product__item">
-              <h4 class="card-product__title title">Питьевая вода</h4>
+              <h4 class="card-product__item-title title">Питьевая вода</h4>
               <span class="card-product__desc">5 литров</span>
               <b class="card-product__price">50 ₽</b>
               <a class="card-product__button button" href="#">Заказать</a>
             </li>
             <li class="card-product__item">
-              <h4 class="card-product__title title">Молоко</h4>
+              <h4 class="card-product__item-title title">Молоко</h4>
               <span class="card-product__desc">1 литр</span>
               <b class="card-product__price">100 ₽</b>
               <a class="card-product__button button" href="#">Заказать</a>
             </li>
             <li class="card-product__item">
-              <h4 class="card-product__title title">Витамины</h4>
+              <h4 class="card-product__item-title title">Витамины</h4>
               <span class="card-product__desc">1 упаковка (30г)</span>
               <b class="card-product__price">300 ₽</b>
               <a class="card-product__button button" href="#">Заказать</a>
@@ -254,7 +256,7 @@
       <div class="map__wrapper">
         <h2 class="visually-hidden">Контакты</h2>
         <h4 class="map__title title">Приглашаем к сотрудничеству дилеров!</h4>
-        <address class="map__adress">ул.Большая Конюшенная, д. 19/8 Санкт-Петербург</address>
+        <address class="map__address">ул.Большая Конюшенная, д. 19/8 Санкт-Петербург</address>
         <img src="images/image-mobile/Rectangle-map.png" width="320" height="362" alt="Карта с локацией">
       </div>
     </article>

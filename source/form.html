@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="styles/styles.css">
     <script src="scripts/index.js" defer></script>
   </head>
-  <body>
+  <body class="page__body">
     <header class="header">
       <a class="header__logo logo" href="#">
         <img class="header__logo-image" src="images/image-mobile/logo-mobile.svg" width="33" height="38" alt="рисунок котика">
@@ -23,13 +23,13 @@
         </button>
         <ul class="navigation-list">
           <li class="navigation-list__item">
-            <a href="#">Главная</a>
+            <a class="navigation-list__link" href="index.html">Главная</a>
           </li>
           <li class="navigation-list__item">
-            <a href="catalog.html">Каталог продукции</a>
+            <a class="navigation-list__link" href="catalog.html">Каталог продукции</a>
           </li>
           <li class="navigation-list__item navigation-list__item-current">
-            <a href="form.html">Подбор программы</a>
+            <a class="navigation-list__link" href="form.html">Подбор программы</a>
           </li>
         </ul>
       </nav>
@@ -38,20 +38,20 @@
       <div class="form__wrapper">
         <h1 class="form__title title">Подбор программы</h1>
         <form class="form__select select" action="https://exo.htmlacademy.ru" >
-          <fieldset class="select__group group">
+          <fieldset class="select__group">
             <legend class="select__title title">Заполните анкету, и мы подберем программу питания для вашего кота</legend>
             <ul class="select__list">
               <li class="select__item">
                 <label class="select__label" for="name">Имя:*</label>
-                <input class="select__name" type="text" name="name" placeholder="Барсик" id="name" required>
+                <input class="select__input" type="text" name="name" placeholder="Барсик" id="name" required>
               </li>
               <li class="select__item">
                 <label class="select__label" for="mass">Вес (кг):*</label>
-                <input class="select__mass" type="number" name="mass" placeholder="7" id="mass" required>
+                <input class="select__input" type="number" name="mass" placeholder="7" id="mass" required>
               </li>
               <li class="select__item">
                 <label class="select__label" for="age">Возраст (лет):*</label>
-                <input class="select__age" type="number" name="age" placeholder="7" id="age">
+                <input class="select__input" type="number" name="age" placeholder="7" id="age">
               </li>
             </ul>
           </fieldset>
@@ -81,50 +81,50 @@
               </li>
             </ul>
           </fieldset>
-          <fieldset class="select__group group">
-            <legend class="select__title title">Контактные данные (владельца кота)</legend>
+          <fieldset class="select__group">
+            <legend class="select-group__title title">Контактные данные (владельца кота)</legend>
             <ul class="select__list">
               <li class="select__item">
                 <label class="select__label" for="email">E-mail:*</label>
-                <input class="select__email" type="email" name="email" placeholder="Kuklachev@gmail.com" id="email" required>
+                <input class="select__input" type="email" name="email" placeholder="Kuklachev@gmail.com" id="email" required>
               </li>
               <li class="select__item">
                 <label class="select__label" for="number">Телефон:*</label>
-                <input class="select__number" type="number" name="phone" placeholder="8 (960) 900-60-90" id="number" required>
+                <input class="select__input" type="number" name="phone" placeholder="8 (960) 900-60-90" id="number" required>
               </li>
               <li class="select__item">
-                <label class="select__label" for="message">Комментарий</label>
-                <textarea class="select__comment" name="comment" id="message" placeholder="Расскажите обо всех повадках кота" required></textarea>
+                <label class="select__label-message" for="message">Комментарий</label>
+                <textarea class="select__input" name="comment" id="message" placeholder="Расскажите обо всех повадках кота" required></textarea>
               </li>
             </ul>
           </fieldset>
           <fieldset class="select__group group">
-            <legend class="select__title title">Дополнительно</legend>
-            <ul class="select__list">
-              <li class="select__item">
-                <label class="select__label" for="sugar">
-                  <input class="select__checkbox" type="checkbox" name="sugar" id="sugar" checked>
+            <legend class="select-group__title title">Дополнительно</legend>
+            <ul class="group__list">
+              <li class="group__item">
+                <label class="group__label" for="sugar">
+                  <input class="group__checkbox" type="checkbox" name="sugar" id="sugar" checked>
                   <span></span>
                   Сахарозаменитель
                 </label>
               </li>
-              <li class="select__item">
-                <label class="select__label" for="water">
-                  <input class="select__checkbox" type="checkbox" name="water" id="water">
+              <li class="group__item">
+                <label class="group__label" for="water">
+                  <input class="group__checkbox" type="checkbox" name="water" id="water">
                   <span></span>
                   Питьевая вода
                 </label>
               </li>
-              <li class="select__item">
-                <label class="select__label"  for="milk">
-                  <input class="select__checkbox" type="checkbox" name="milk" id="milk">
+              <li class="group__item">
+                <label class="group__label"  for="milk">
+                  <input class="group__checkbox" type="checkbox" name="milk" id="milk">
                   <span></span>
                   Молоко
                 </label>
               </li>
-              <li class="select__item">
-                <label class="select__label" for="vitamins">
-                  <input class="select__checkbox" type="checkbox" name="vitamins" id="vitamins">
+              <li class="group__item">
+                <label class="group__label" for="vitamins">
+                  <input class="group__checkbox" type="checkbox" name="vitamins" id="vitamins">
                   <span></span>
                   Витамины
                 </label>
@@ -140,7 +140,7 @@
       <div class="map__wrapper">
         <h2 class="visually-hidden">Контакты</h2>
         <h4 class="map__title title">Приглашаем к сотрудничеству дилеров!</h4>
-        <address class="map__adress">ул.Большая Конюшенная, д. 19/8 Санкт-Петербург</address>
+        <address class="map__address">ул.Большая Конюшенная, д. 19/8 Санкт-Петербург</address>
         <img src="images/image-mobile/Rectangle-map.png" width="320" height="362" alt="Карта с локацией">
       </div>
     </article>
