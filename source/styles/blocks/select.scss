@@ -1,10 +1,21 @@
-.select__label, .group__label {
-  font-family: "oswald", sans-serif;
+.select__label {
+  font-family: "oswald", Arial, Verdana, Helvetica, sans-serif;
   font-size: 16px;
   line-height: 18px;
   text-transform: uppercase;
 }
 
-.group__label {
+.select__label-message {
+  font-family: "oswald", Arial, Verdana, Helvetica, sans-serif;
+  font-size: 24px;
+  line-height: 26px;
+  color: $sades-of-black;
+}
 
+.select__input {
+  font-family: "oswald", Arial, Verdana, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color:$base-color-text;
 }

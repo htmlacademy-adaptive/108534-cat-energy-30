@@ -1,8 +1,9 @@
+.hero-screen {
+  background-color: $sades-of-apple;
+}
+
 .hero-screen__headline {
-  font-family: "oswald", sans-serif;
-  font-size: 36px;
-  line-height: 36px;
-  color: #000;
+  
 }
 
 .hero-screen__subtitle {
@@ -10,9 +11,7 @@
   font-size: 14px;
   line-height: 14px;
   text-transform: uppercase;
-  color: #000;
+  color: #ffffff;
 }
 
-.hero-screen {
-  background-color: $sades-of-apple;
-}
+

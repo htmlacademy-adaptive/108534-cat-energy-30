@@ -1,7 +1,6 @@
-.stats__title {
-  font-family: "oswald", sans-serif;
-  font-size: 36px;
-  line-height: 40px;
+.stats {
+  background-color: #eaeaea;
+  margin: 0;
 }
 
 .stats__intro {
@@ -13,6 +12,7 @@
   font-family: "oswald", sans-serif;
   font-size: 24px;
   line-height: 24px;
+  color: $sades-of-black;
 }
 
 .stats__description {
@@ -25,9 +25,7 @@
   font-size: 14px;
   line-height: 20px;
   text-transform: uppercase;
+  color: $sades-of-black;
 }
 
-.stats {
-  background-color: #eaeaea;
-  margin: 0;
-}
+
