@@ -2,3 +2,76 @@
   font-size: 14px;
   line-height: 18px;
 }
+
+.advantages__description--leaves::before {
+  content: "";
+  background-color:$sades-of-apple;
+  display: block;
+  width: 60px;
+  height: 60px;
+  }
+
+.advantages__description--leaves::after {
+  content:"";
+  background-image: url("../../images/icons/leaves.svg");
+  background-color:aqua;
+  background-repeat: no-repeat;
+  width: 30px;
+  height: 32px;
+  display: block;
+  }
+
+.advantages__description--water::before {
+  content: "";
+  background-color:$sades-of-apple;
+  display: block;
+  width: 60px;
+  height: 60px;
+  }
+
+.advantages__description--water::after {
+  content:"";
+  background-image: url("../../images/icons/water.svg");
+  background-color:aqua;
+  background-repeat: no-repeat;
+  width: 26px;
+  height: 28px;
+  display: block;
+  }
+
+.advantages__description--fork::before {
+  content: "";
+  background-color:$sades-of-apple;
+  display: block;
+  width: 60px;
+  height: 60px;
+  }
+
+.advantages__description--fork::after {
+  content:"";
+  background-image: url("../../images/icons/fork.svg");
+  background-color:aqua;
+  background-repeat: no-repeat;
+  width: 26px;
+  height: 30px;
+  display: block;
+  }
+
+.advantages__description--watch::before {
+  content: "";
+  background-color:$sades-of-apple;
+  display: block;
+  width: 60px;
+  height: 60px;
+  }
+
+.advantages__description--watch::after {
+  content:"";
+  background-image: url("../../images/icons/watch.svg");
+  background-color:aqua;
+  background-repeat: no-repeat;
+  width: 30px;
+  height: 32px;
+  display: block;
+  }
+

@@ -2,6 +2,14 @@
   background-color: $sades-of-apple;
 }
 
+.promo::before {
+  content: "";
+  background-image: url("../../images/icons/stack.svg#box");
+  display: block;
+  width: 78px;
+  height: 80px;
+}
+
 .promo__text {
   line-height: 20px;
   color: #ffffff;

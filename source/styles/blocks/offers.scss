@@ -6,6 +6,14 @@
   color: $sades-of-black;
 }
 
+.offers__number::before {
+  content: "";
+  background-image: url("../../images/icons/stack.svg#plus");
+  width: 30px;
+  height: 30px;
+  display: block;
+}
+
 .offers__description {
   font-size: 12px;
   line-height: 16px;
