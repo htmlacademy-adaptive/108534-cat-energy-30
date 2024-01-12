@@ -1,9 +1,17 @@
 .offers__number {
-  font-family: "oswald", Arial, Verdana, Helvetica, sans-serif;
+  font-family: "oswald", "Arial", "Verdana", "Helvetica", sans-serif;
   line-height: 20px;
   text-transform: uppercase;
   text-decoration: none;
   color: $sades-of-black;
+}
+
+.offers__number::before {
+  content: "";
+  background-image: url("../../images/icons/stack.svg#plus");
+  width: 30px;
+  height: 30px;
+  display: block;
 }
 
 .offers__description {
