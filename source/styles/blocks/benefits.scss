@@ -2,6 +2,15 @@
   background-color: $sades-of-white-smoke;
 }
 
+.benefits__slim {
+  background-color: $sades-of-apple;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-repeat:no-repeat;
+  display: block;
+}
+
 .benefits__slim::before {
   content: "";
   background-image: url("../../images/icons/stack.svg#cat-slim");
@@ -11,15 +20,13 @@
   display: block;
 }
 
-.benefits__slim::after {
-  content: "";
+.benefits__pro {
   background-color: $sades-of-apple;
   width: 50px;
   height: 50px;
   border-radius: 50%;
   background-repeat:no-repeat;
   display: block;
-  
 }
 
 .benefits__pro::before {
@@ -28,16 +35,6 @@
   width: 67px;
   height: 28px;
   background-repeat: no-repeat;
-  display: block;
-}
-
-.benefits__pro::after {
-  content: "";
-  background-color: $sades-of-apple;
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  background-repeat:no-repeat;
   display: block;
 }
 

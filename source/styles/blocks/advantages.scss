@@ -3,72 +3,64 @@
   line-height: 18px;
 }
 
-.advantages__description--leaves::before {
-  content: "";
+.advantages__leaves {
   background-color:$sades-of-apple;
   display: block;
   width: 60px;
   height: 60px;
   }
 
-.advantages__description--leaves::after {
+.advantages__leaves::before {
   content:"";
   background-image: url("../../images/icons/leaves.svg");
-  background-color:aqua;
   background-repeat: no-repeat;
   width: 30px;
   height: 32px;
   display: block;
   }
 
-.advantages__description--water::before {
-  content: "";
+.advantages__water {
   background-color:$sades-of-apple;
   display: block;
   width: 60px;
   height: 60px;
   }
 
-.advantages__description--water::after {
+.advantages__water::before {
   content:"";
   background-image: url("../../images/icons/water.svg");
-  background-color:aqua;
   background-repeat: no-repeat;
   width: 26px;
   height: 28px;
   display: block;
   }
 
-.advantages__description--fork::before {
-  content: "";
+.advantages__fork {
   background-color:$sades-of-apple;
   display: block;
   width: 60px;
   height: 60px;
   }
 
-.advantages__description--fork::after {
+.advantages__fork::before {
   content:"";
   background-image: url("../../images/icons/fork.svg");
-  background-color:aqua;
   background-repeat: no-repeat;
   width: 26px;
   height: 30px;
   display: block;
   }
 
-.advantages__description--watch::before {
-  content: "";
+.advantages__watch {
   background-color:$sades-of-apple;
   display: block;
   width: 60px;
   height: 60px;
   }
 
-.advantages__description--watch::after {
+.advantages__watch::before {
   content:"";
   background-image: url("../../images/icons/watch.svg");
-  background-color:aqua;
   background-repeat: no-repeat;
   width: 30px;
   height: 32px;
