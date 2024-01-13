@@ -1,0 +1,11 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  height: 38px;
+  padding: 13px 20px;
+
+@media (min-width: $tablet-width) {
+  height: 50px;
+}
+
+}
