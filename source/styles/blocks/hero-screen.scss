@@ -1,6 +1,9 @@
 .hero-screen {
   background-color: $sades-of-apple;
+  display: grid;
+  grid-template-columns: 280px;
 }
+
 
 .hero-screen__subtitle {
   font-family: "oswald", "Arial", "Verdana", "Helvetica", sans-serif;

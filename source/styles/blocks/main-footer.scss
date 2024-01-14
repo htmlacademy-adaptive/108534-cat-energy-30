@@ -1,5 +1,11 @@
 .main-footer {
   background-color: $sades-of-white-smoke;
+  display: flex;
+  flex-direction: column;
+
+  @media (min-width: $tablet-width) {
+    justify-content: space-between;
+  }
 }
 
 .social__link {
