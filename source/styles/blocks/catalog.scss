@@ -1,0 +1,13 @@
+.catalog {
+  display: flex;
+  flex-direction: column;
+
+  @media (min-width: $desktop-width) {
+    .catalog__product-wrap {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+}
+
+
