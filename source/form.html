@@ -24,6 +24,7 @@
       <nav class="navigation">
         <button class="navigation__toggle" type="button">
           <span class="vizually-hidden">Открыть меню</span>
+          <img src="images/burger.svg" width="24" height="16" alt="иконка бургер">
         </button>
         <ul class="navigation-list">
           <li class="navigation-list__item">
@@ -153,29 +154,52 @@
         <section class="main-footer__logo">
           <h3 class="visually-hidden">Логотип</h3>
           <a href="index.html">
-            <img class="main-footer__logo-text" src="images/image-mobile/logo-text-mobile.svg" width="101" height="18" alt="кат энерджи">
+            <svg class="main-footer__logo-text" width="101" height="18">
+              <use href="images/sprite.svg#footer-logo-mobile"></use>
+            </svg>
           </a>
         </section>
         <section class="main-footer__social social">
           <h3 class="visually-hidden">Соцсети</h3>
           <ul class="social__list">
             <li class="social__item">
-              <a class="social__link" href="https://vk.com/htmlacademy">Вконтакте</a>
-              <span></span>
+              <a class="social__link" href="https://vk.com/htmlacademy">
+                <span class="visually-hidden">Вконтакте</span>
+                <svg width="28" height="22" fill="none">
+                  <use href="images/sprite.svg#vkontakte"></use>
+                </svg>
+              </a>
             </li>
             <li class="social__item">
-              <a class="social__link" href="https://www.youtube.com/user/htmlacademyru">Ютуб</a>
-              <span></span>
+              <a class="social__link" href="https://www.youtube.com/user/htmlacademyru">
+                <span class="visually-hidden">Ютуб</span>
+                <svg width="28" height="22" fill="none">
+                  <use href="images/sprite.svg#youtube"></use>
+                </svg>
+              </a>
             </li>
             <li class="social__item">
-              <a class="social__link" href="https://t.me/htmlacademy">Телеграм</a>
+              <a class="social__link" href="https://t.me/htmlacademy">
+                <span class="visually-hidden">Телеграм</span>
+                <svg width="28" height="22" fill="none">
+                  <use href="images/sprite.svg#telegram"></use>
+                </svg>
+              </a>
               <span></span>
             </li>
           </ul>
         </section>
         <section class="main-footer__partners partners">
           <h3 class="visually-hidden">Партнеры</h3>
-          <a class="partners__link" href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a>
+          <a class="partners__link" href="https://htmlacademy.ru/intensive/adaptive">
+            <span class="visually-hidden">HTML-Academy</span>
+            <svg class="partners__link-text" width="113" height="20">
+              <use href="images/sprite.svg#HTML-Academy"></use>
+            </svg>
+            <svg class="partners__link-logo" width="27" height="34">
+              <use href="images/sprite.svg#logo-html"></use>
+            </svg>
+          </a>
         </section>
       </div>
     </footer>

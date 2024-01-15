@@ -1,9 +1,13 @@
 .main-footer {
   background-color: $sades-of-white-smoke;
+}
+
+.main-footer__wrapper {
   display: flex;
   flex-direction: column;
 
   @media (min-width: $tablet-width) {
+    display: flex;
     justify-content: space-between;
   }
 }
