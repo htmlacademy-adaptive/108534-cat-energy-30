@@ -7,7 +7,7 @@
     grid-template-columns: 354px 354px;
   }
 
-  @media (min-width:$desktop-width) {
+  @media (min-width: $desktop-width) {
     display: grid;
     grid-template-columns: 305px 305px 305px 305px;
   }
@@ -19,7 +19,7 @@
 }
 
 .advantages__leaves {
-  background-color:$sades-of-apple;
+  background-color: $sades-of-apple;
   display: block;
   width: 60px;
   height: 60px;
@@ -42,7 +42,7 @@
 }
 
 .advantages__water::before {
-  content:"";
+  content: "";
   background-image: url("../../images/icons/water.svg");
   background-repeat: no-repeat;
   width: 26px;
@@ -51,7 +51,7 @@
 }
 
 .advantages__fork {
-  background-color:$sades-of-apple;
+  background-color: $sades-of-apple;
   display: block;
   width: 60px;
   height: 60px;
