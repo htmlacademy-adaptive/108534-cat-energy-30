@@ -24,6 +24,7 @@
       <nav class="navigation">
         <button class="navigation__toggle" type="button">
           <span class="vizually-hidden">Открыть меню</span>
+          <img src="images/burger.svg" width="24" height="16" alt="иконка бургер">
         </button>
         <ul class="navigation-list">
           <li class="navigation-list__item">
@@ -42,6 +43,7 @@
       <div class="form__wrapper">
         <h1 class="form__title title">Подбор программы</h1>
         <form class="form__select select" action="https://exo.htmlacademy.ru" >
+          <div class="select__group-page">
           <fieldset class="select__group">
             <legend class="select__title title">Заполните анкету, и мы подберем программу питания для вашего кота</legend>
             <ul class="select__list">
@@ -85,8 +87,9 @@
               </li>
             </ul>
           </fieldset>
+          </div>
           <fieldset class="select__group">
-            <legend class="select-group__title title">Контактные данные (владельца кота)</legend>
+            <legend class="select__group-title title">Контактные данные (владельца кота)</legend>
             <ul class="select__list">
               <li class="select__item">
                 <label class="select__label" for="email">E-mail:*</label>
@@ -103,7 +106,7 @@
             </ul>
           </fieldset>
           <fieldset class="select__group group">
-            <legend class="select-group__title title">Дополнительно</legend>
+            <legend class="select__group-title title">Дополнительно</legend>
             <ul class="group__list">
               <li class="group__item">
                 <label class="group__label" for="sugar">
@@ -152,30 +155,54 @@
       <div class="main-footer__wrapper">
         <section class="main-footer__logo">
           <h3 class="visually-hidden">Логотип</h3>
-          <a href="index.html">
-            <img class="main-footer__logo-text" src="images/image-mobile/logo-text-mobile.svg" width="101" height="18" alt="кат энерджи">
+          <a class="main-footer__logo-text" href="index.html">
+            <span class="visually-hidden">переход на главную страницу</span>
+            <svg class="main-footer__text" width="101" height="18">
+              <use href="images/sprite.svg#footer-logo-mobile"></use>
+            </svg>
           </a>
         </section>
         <section class="main-footer__social social">
           <h3 class="visually-hidden">Соцсети</h3>
           <ul class="social__list">
             <li class="social__item">
-              <a class="social__link" href="https://vk.com/htmlacademy">Вконтакте</a>
-              <span></span>
+              <a class="social__link" href="https://vk.com/htmlacademy">
+                <span class="visually-hidden">Вконтакте</span>
+                <svg width="28" height="22" fill="none">
+                  <use href="images/sprite.svg#vkontakte"></use>
+                </svg>
+              </a>
             </li>
             <li class="social__item">
-              <a class="social__link" href="https://www.youtube.com/user/htmlacademyru">Ютуб</a>
-              <span></span>
+              <a class="social__link" href="https://www.youtube.com/user/htmlacademyru">
+                <span class="visually-hidden">Ютуб</span>
+                <svg width="28" height="22" fill="none">
+                  <use href="images/sprite.svg#youtube"></use>
+                </svg>
+              </a>
             </li>
             <li class="social__item">
-              <a class="social__link" href="https://t.me/htmlacademy">Телеграм</a>
+              <a class="social__link" href="https://t.me/htmlacademy">
+                <span class="visually-hidden">Телеграм</span>
+                <svg width="28" height="22" fill="none">
+                  <use href="images/sprite.svg#telegram"></use>
+                </svg>
+              </a>
               <span></span>
             </li>
           </ul>
         </section>
         <section class="main-footer__partners partners">
           <h3 class="visually-hidden">Партнеры</h3>
-          <a class="partners__link" href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a>
+          <a class="partners__link" href="https://htmlacademy.ru/intensive/adaptive">
+            <span class="visually-hidden">HTML-Academy</span>
+            <svg class="partners__link-text" width="113" height="20">
+              <use href="images/sprite.svg#HTML-Academy"></use>
+            </svg>
+            <svg class="partners__link-logo" width="27" height="34">
+              <use href="images/sprite.svg#logo-html"></use>
+            </svg>
+          </a>
         </section>
       </div>
     </footer>

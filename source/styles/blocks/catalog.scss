@@ -1,0 +1,23 @@
+.catalog__card-list {
+  display: grid;
+  grid-template-columns: 280px;
+
+  @media (min-width: $tablet-width) {
+    grid-template-columns: 324px 324px;
+    gap: 60px;
+  }
+
+  @media (min-width: $desktop-width) {
+    grid-template-columns: 245px 245px 245px 245px;
+    gap: 80px;
+  }
+}
+
+.catalog__card-product {
+  display: flex;
+  flex-direction: column;
+
+  @media (min-width: $desktop-width) {
+    justify-content: space-between;
+  }
+}

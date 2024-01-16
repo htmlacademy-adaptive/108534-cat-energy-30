@@ -1,8 +1,9 @@
-.promo {
+.card-product__promo {
   background-color: $sades-of-apple;
+  width: 245px;
 }
 
-.promo::before {
+.card-product__promo::before {
   content: "";
   background-image: url("../../images/icons/stack.svg#box");
   display: block;

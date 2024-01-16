@@ -8,6 +8,11 @@
   font-size: 36px;
   line-height: 40px;
   color: #ffffff;
+
+  @media (min-width: $tablet-width) {
+    font-size: 60px;
+    line-height: 60px;
+  }
 }
 
 .benefits__title {

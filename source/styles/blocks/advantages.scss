@@ -1,69 +1,83 @@
+.advantages__list {
+  display: grid;
+  grid-template-columns: 280px;
+
+  @media (min-width: $tablet-width) {
+    display: grid;
+    grid-template-columns: 354px 354px;
+  }
+
+  @media (min-width: $desktop-width) {
+    display: grid;
+    grid-template-columns: 305px 305px 305px 305px;
+  }
+}
+
 .advantages__description {
   font-size: 14px;
   line-height: 18px;
 }
 
 .advantages__leaves {
-  background-color:$sades-of-apple;
+  background-color: $sades-of-apple;
   display: block;
   width: 60px;
   height: 60px;
-  }
+}
 
 .advantages__leaves::before {
-  content:"";
+  content: "";
   background-image: url("../../images/icons/leaves.svg");
   background-repeat: no-repeat;
   width: 30px;
   height: 32px;
   display: block;
-  }
+}
 
 .advantages__water {
-  background-color:$sades-of-apple;
+  background-color: $sades-of-apple;
   display: block;
   width: 60px;
   height: 60px;
-  }
+}
 
 .advantages__water::before {
-  content:"";
+  content: "";
   background-image: url("../../images/icons/water.svg");
   background-repeat: no-repeat;
   width: 26px;
   height: 28px;
   display: block;
-  }
+}
 
 .advantages__fork {
-  background-color:$sades-of-apple;
+  background-color: $sades-of-apple;
   display: block;
   width: 60px;
   height: 60px;
-  }
+}
 
 .advantages__fork::before {
-  content:"";
+  content: "";
   background-image: url("../../images/icons/fork.svg");
   background-repeat: no-repeat;
   width: 26px;
   height: 30px;
   display: block;
-  }
+}
 
 .advantages__watch {
-  background-color:$sades-of-apple;
+  background-color: $sades-of-apple;
   display: block;
   width: 60px;
   height: 60px;
-  }
+}
 
 .advantages__watch::before {
-  content:"";
+  content: "";
   background-image: url("../../images/icons/watch.svg");
   background-repeat: no-repeat;
   width: 30px;
   height: 32px;
   display: block;
-  }
-
+}

@@ -1,3 +1,18 @@
+.benefits__list {
+  display: grid;
+  grid-template: columns;
+  width: 280px;
+
+  @media (min-width: $tablet-width) {
+    width: 708px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 1220px;
+    display: flex;
+  }
+}
+
 .benefits__item {
   background-color: $sades-of-white-smoke;
 }
@@ -7,7 +22,7 @@
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  background-repeat:no-repeat;
+  background-repeat: no-repeat;
   display: block;
 }
 
@@ -25,7 +40,7 @@
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  background-repeat:no-repeat;
+  background-repeat: no-repeat;
   display: block;
 }
 
